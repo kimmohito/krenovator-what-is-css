@@ -178,7 +178,7 @@ Output:
 </div>
 
 ### Advantages of Internal CSS:
-You can use class and ID selectors in this style sheet. Here’s an example:
+- You can use class and ID selectors in this style sheet. Here’s an example:
 
 ```
 .class {
@@ -194,10 +194,10 @@ You can use class and ID selectors in this style sheet. Here’s an example:
 }
 ```
 
-Since you’ll only add the code within the same HTML file, you don’t need to upload multiple files.
+- Since you’ll only add the code within the same HTML file, you don’t need to upload multiple files.
 
 ### Disadvantages of Internal CSS:
-Adding the code to the HTML document can increase the page’s size and loading time.
+- Adding the code to the HTML document can increase the page’s size and loading time.
 
 ## External CSS
 With external CSS, you’ll link your web pages to an external `.css` file, which can be created by any text editor in your device (e.g., `vscode`).
