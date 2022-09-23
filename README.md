@@ -264,11 +264,11 @@ Let’s take a look at an example. Here, we add an inline CSS to the `<p>` and `
 ## Conclusion
 In this tutorial, you’ve learned the difference between the three types of CSS: internal, external, and inline. Here’s the recap:
 
-- **Internal** or embedded ⁠— add `<style>` tag in the `<head>` section of HTML document
+- [**Internal**](internal-css) or embedded ⁠— add `<style>` tag in the `<head>` section of HTML document
 
-- **External** ⁠— link the HTML sheet to a separate `.css` file
+- [**External** ](external-css) ⁠— link the HTML sheet to a separate `.css` file
 
-- **Inline** ⁠— apply CSS rules for specific elements.
+- [**Inline**](inline-css) ⁠— apply CSS rules for specific elements.
 
 So, which CSS style will you use?
 
