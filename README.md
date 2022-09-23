@@ -99,11 +99,14 @@ Here’s how you can use internal CSS:
 
 1. Open your HTML page and locate `<head>` opening tag.
 2. Put the following code right after the `<head>` tag
-```html
+   
+```
 <style type="text/css">
 ```
+
 3. Add CSS rules on a new line. Here’s an example:
-```css
+
+```
 body {
     background-color: blue;
 }
@@ -112,12 +115,15 @@ h1 {
     padding: 60px;
 }
 ```
+
 4. Type the closing tag
-```html
+```
 </style>
 ```
+
 Your HTML file will look like this:
-```html
+
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -139,6 +145,7 @@ h1 {
 </body>
 </html>
 ```
+
 Output:
 <style type="text/css">
     .style {
@@ -169,6 +176,7 @@ You can use class and ID selectors in this style sheet. Here’s an example:
     property3 : value3; 
 }
 ```
+
 Since you’ll only add the code within the same HTML file, you don’t need to upload multiple files.
 
 ### Disadvantages of Internal CSS:
@@ -195,7 +203,7 @@ Follow these steps to use external CSS:
 }
 ```
 2. In the `<head>` section of your HTML sheet, add a reference to your external `style.css` file right after `<title>` tag:
-```html
+```
 <link rel="stylesheet" type="text/css" href="style.css" />
 ```
 Don’t forget to change `style.css` with the name of your `.css` file.
@@ -216,7 +224,7 @@ However, inline CSS in HTML can be useful in some situations. For example, in ca
 
 Let’s take a look at an example. Here, we add an inline CSS to the `<p>` and `<h1>` tag:
 
-```html
+```
 <!DOCTYPE html>
 <html>
 <body style="background-color:black;">
