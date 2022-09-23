@@ -121,7 +121,7 @@ Here’s how you can use internal CSS:
         padding: 60px;
     }
     p{
-        color: #666;
+        color: #fff;
     }
 ```
 
@@ -145,7 +145,7 @@ Your HTML file will look like this:
                 padding: 60px;
             } 
             p{
-                color: #666;
+                color: #fff;
             }
         </style>
         </head>
@@ -167,7 +167,7 @@ Output:
             padding: 60px;
         }
         .body p{
-            color: #666;
+            color: #fff;
         }
     </style>
     <div class="body">
@@ -248,7 +248,7 @@ Let’s take a look at an example. Here, we add an inline CSS to the `<p>` and `
     <html>
     <body style="background-color:#333;">
         <h1 style="color:#00acee;padding:30px;">Krenovator - What is CSS</h1>
-        <p style="color:#666;">This is our paragraph.</p>
+        <p style="color:#fff;">This is our paragraph.</p>
     </body>
     </html>
 ```
