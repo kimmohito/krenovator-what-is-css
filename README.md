@@ -29,14 +29,14 @@ Without **CSS**, your website will appear as a plain **HTML** page. Here’s how
 </div>
 
 ## With CSS
-<div style="border: solid 1px #ccc; background: #eee;">
+<div style="border: solid 1px #ccc; background: #333;">
     <style type="text/css">
         .form-with-css{
-            background: #fff;
             text-align: center;
             padding: 20px;
         }
         .form-with-css .card{
+            background: #fff;
             border: solid 1px #ccc;
             border-radius: 5px;
             margin: auto;
@@ -64,6 +64,7 @@ Without **CSS**, your website will appear as a plain **HTML** page. Here’s how
         }
         .form-with-css input:hover{
             background: #ccc;
+            border: solid 1px #aaa;
         }
         .form-with-css button{
             background: #00acee;
