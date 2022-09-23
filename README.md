@@ -1,10 +1,19 @@
+<style>
+    .highlight{
+        background: #ccc;
+    }
+    code{
+        color: greenyellow;
+    }
+</style>
+
 # What Exactly is CSS?
 
 **Cascading Style Sheets (CSS)** is a markup language responsible for how your web pages will look like. It controls the colors, fonts, and layouts of your website elements.
 
-This style sheet language also allows you to add effects or animations to your website. You can use it to display some CSS animations like click button effects, spinners or loaders, and animated backgrounds.
+This style sheet language also allows you to add effects or animations to your website. You can use it to display some **CSS** animations like click button effects, spinners or loaders, and animated backgrounds.
 
-Without CSS, your website will appear as a plain HTML page. Here’s how example of page [without css](#without-css) and [with css](#with-css) will look like.
+Without **CSS**, your website will appear as a plain **HTML** page. Here’s how example of page [without css](#without-css) and [with css](#with-css) will look like.
 
 ## Without CSS
 <div style="border: solid 1px #ccc; background: #eee;">
@@ -51,7 +60,7 @@ Without CSS, your website will appear as a plain HTML page. Here’s how example
             padding: 10px;
             text-align: center;
             transition: ease .4s;
-            width: 280px;
+            width: 300px;
         }
         .form-with-css input:hover{
             background: #ccc;
