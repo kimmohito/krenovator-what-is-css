@@ -135,7 +135,7 @@ Your HTML file will look like this:
         <head>
         <style>
             body {
-                background-color: #eee;
+                background-color: #333;
             }
             h1 {
                 color: #00acee;
@@ -154,7 +154,7 @@ Output:
 <div style="border: solid 1px #ccc; background: #eee;">
     <style type="text/css">
         .body {
-            background-color: #eee;
+            background-color: #333;
         }
         .body h1 {
             color: #00acee;
