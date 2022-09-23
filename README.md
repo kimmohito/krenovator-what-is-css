@@ -100,25 +100,25 @@ Here’s how you can use internal CSS:
 1. Open your HTML page and locate `<head>` opening tag.
 
 2. Put the following code right after the `<head>` tag
-```
-    <style type="text/css">
-```
+    ```
+        <style type="text/css">
+    ```
 
 3. Add CSS rules on a new line. Here’s an example:
-```
-    .body {
-        background-color: blue;
-    }
-    .body h1 {
-        color: red;
-        padding: 60px;
-    }
-```
+    ```
+        .body {
+            background-color: blue;
+        }
+        .body h1 {
+            color: red;
+            padding: 60px;
+        }
+    ```
 
 4. Type the closing tag
-```
-    </style>
-```
+    ```
+        </style>
+    ```
 
 Your HTML file will look like this:
 
@@ -190,28 +190,30 @@ This CSS type is a more efficient method, especially for styling a large website
 Follow these steps to use external CSS:
 
 1. Create a new `.css` file with the text editor, and add the style rules. For example:
-```
-.xleftcol {
-   float: left;
-   width: 33%;
-   background:#809900;
-}
-.xmiddlecol {
-   float: left;
-   width: 34%;
-   background:#eff2df;
-}
-```
-2. In the `<head>` section of your HTML sheet, add a reference to your external `style.css` file right after `<title>` tag:
-```
-<link rel="stylesheet" type="text/css" href="style.css" />
-```
+   ```
+        .xleftcol {
+            float: left;
+            width: 33%;
+            background:#809900;
+        }
+        .xmiddlecol {
+            float: left;
+            width: 34%;
+            background:#eff2df;
+        }
+    ```
+
+2. In the `<head>` section of your HTML sheet, add a reference to your external `style.css` file right after `<title>` tag
+   ```
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    ```
+
 Don’t forget to change `style.css` with the name of your `.css` file.
 
-Advantages of External CSS:
+### Advantages of External CSS:
 Since the CSS code is in a separate document, your HTML files will have a cleaner structure and are smaller in size.
 You can use the same .css file for multiple pages.
-Disadvantages of External CSS:
+### Disadvantages of External CSS:
 Your pages may not be rendered correctly until the external CSS is loaded.
 Uploading or linking to multiple CSS files can increase your site’s download time.
 
@@ -225,13 +227,13 @@ However, inline CSS in HTML can be useful in some situations. For example, in ca
 Let’s take a look at an example. Here, we add an inline CSS to the `<p>` and `<h1>` tag:
 
 ```
-<!DOCTYPE html>
-<html>
-<div style="background-color:black;">
-    <h1 style="color:white;padding:30px;">Krenovator - What is CSS</h1>
-    <p style="color:white;">This is our paragraph.</p>
-</div>
-</html>
+    <!DOCTYPE html>
+    <html>
+    <body style="background-color:black;">
+        <h1 style="color:white;padding:30px;">Krenovator - What is CSS</h1>
+        <p style="color:white;">This is our paragraph.</p>
+    </body>
+    </html>
 ```
 
 ### Advantages of Inline CSS:
