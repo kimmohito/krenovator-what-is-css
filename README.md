@@ -19,7 +19,7 @@ Without **CSS**, your website will appear as a plain **HTML** page. Here’s how
         <label>Username: </label><br>
         <input type="text"><br>
         <label>Password: </label><br>
-        <input type="text"><br>
+        <input type="password"><br>
         <button>Login</button><br>
         <a href="#">Forgot password?</a>
     </form>
