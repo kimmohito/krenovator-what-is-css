@@ -1,6 +1,6 @@
 <style>
     code{
-        color: #ccc;
+        color: #333;
     }
 </style>
 
