@@ -128,35 +128,35 @@ Your HTML file will look like this:
 <html>
 <head>
 <style>
-body {
+.body {
     background-color: blue;
 }
-h1 {
+.body h1 {
     color: red;
     padding: 60px;
 } 
 </style>
 </head>
-<body>
+<div class="body">
 
 <h1>Krenovator - What is CSS</h1>
 <p>This is our paragraph.</p>
 
-</body>
+</div>
 </html>
 ```
 
 Output:
 <style type="text/css">
-    .style {
+    .body {
     background-color: blue;
 }
-.style h1 {
+.body h1 {
     color: red;
     padding: 60px;
 } 
 </style>
-<div class="style">
+<div class="body">
     <h1>Krenovator - What is CSS</h1>
     <p>This is our paragraph.</p>
 </div>
@@ -227,12 +227,10 @@ Let’s take a look at an example. Here, we add an inline CSS to the `<p>` and `
 ```
 <!DOCTYPE html>
 <html>
-<body style="background-color:black;">
-
-<h1 style="color:white;padding:30px;">Krenovator - What is CSS</h1>
-<p style="color:white;">This is our paragraph.</p>
-
-</body>
+<div style="background-color:black;">
+    <h1 style="color:white;padding:30px;">Krenovator - What is CSS</h1>
+    <p style="color:white;">This is our paragraph.</p>
+</div>
 </html>
 ```
 
