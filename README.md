@@ -1,6 +1,6 @@
 <style>
-    pre, .highlight{
-        background: #eee;
+    pre{
+        background: #ccc;
     }
     code{
         color: #00acee;
@@ -117,10 +117,10 @@ Here’s how you can use internal CSS:
 3. Add CSS rules on a new line. Here’s an example:
 ```
     .body {
-        background-color: blue;
+        background-color: #eee;
     }
     .body h1 {
-        color: red;
+        color: #00acee;
         padding: 60px;
     }
 ```
@@ -138,12 +138,12 @@ Your HTML file will look like this:
         <head>
         <style>
             body {
-            background-color: blue;
-        }
-        .body h1 {
-            color: red;
-            padding: 60px;
-        } 
+                background-color: #eee;
+            }
+            h1 {
+                color: #00acee;
+                padding: 60px;
+            } 
         </style>
         </head>
         <body>
@@ -157,12 +157,12 @@ Output:
 <html>
     <style type="text/css">
         .body {
-        background-color: blue;
-    }
-    .body h1 {
-        color: red;
-        padding: 60px;
-    } 
+            background-color: #eee;
+        }
+        .body h1 {
+            color: #00acee;
+            padding: 60px;
+        } 
     </style>
     <div class="body">
         <h1>Krenovator - What is CSS</h1>
