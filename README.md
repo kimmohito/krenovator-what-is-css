@@ -113,12 +113,15 @@ Here’s how you can use internal CSS:
 
 3. Add CSS rules on a new line. Here’s an example:
 ```
-    .body {
+    body {
         background-color: #eee;
     }
-    .body h1 {
+    h1 {
         color: #00acee;
         padding: 60px;
+    }
+    p{
+        color: #666;
     }
 ```
 
@@ -141,6 +144,9 @@ Your HTML file will look like this:
                 color: #00acee;
                 padding: 60px;
             } 
+            p{
+                color: #666;
+            }
         </style>
         </head>
         <body>
@@ -159,7 +165,10 @@ Output:
         .body h1 {
             color: #00acee;
             padding: 60px;
-        } 
+        }
+        .body p{
+            color: #666;
+        }
     </style>
     <div class="body">
         <h1>Krenovator - What is CSS</h1>
@@ -237,9 +246,9 @@ Let’s take a look at an example. Here, we add an inline CSS to the `<p>` and `
 ```
     <!DOCTYPE html>
     <html>
-    <body style="background-color:black;">
-        <h1 style="color:white;padding:30px;">Krenovator - What is CSS</h1>
-        <p style="color:white;">This is our paragraph.</p>
+    <body style="background-color:#333;">
+        <h1 style="color:#00acee;padding:30px;">Krenovator - What is CSS</h1>
+        <p style="color:#666;">This is our paragraph.</p>
     </body>
     </html>
 ```
@@ -262,3 +271,8 @@ In this tutorial, you’ve learned the difference between the three types of CSS
 - **Inline** ⁠— apply CSS rules for specific elements.
 
 So, which CSS style will you use?
+
+p/s: You can clone this repo, and all the materials inside the directory.
+```
+$ git clone http://github.com/kimmohito/krenovator-what-is-css
+```
