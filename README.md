@@ -1,9 +1,9 @@
 <style>
-    .highlight{
-        background: #ccc;
+    pre{
+        background: #eee;
     }
     code{
-        color: greenyellow;
+        color: #00acee;
     }
 </style>
 
