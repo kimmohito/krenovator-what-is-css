@@ -141,15 +141,15 @@ h1 {
 ```
 Output:
 <style type="text/css">
-    .body {
+    .style {
     background-color: blue;
 }
-.body h1 {
+.style h1 {
     color: red;
     padding: 60px;
 } 
 </style>
-<div class="body">
+<div class="style">
     <h1>Krenovator - What is CSS</h1>
     <p>This is our paragraph.</p>
 </div>
