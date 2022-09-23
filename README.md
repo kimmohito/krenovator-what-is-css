@@ -136,18 +136,18 @@ Your HTML file will look like this:
     <!DOCTYPE html>
     <html>
         <head>
-        <style>
-            body {
-                background-color: #333;
-            }
-            h1 {
-                color: #00acee;
-                padding: 60px;
-            } 
-            p{
-                color: #fff;
-            }
-        </style>
+            <style>
+                body {
+                    background-color: #333;
+                }
+                h1 {
+                    color: #00acee;
+                    padding: 60px;
+                } 
+                p{
+                    color: #fff;
+                }
+            </style>
         </head>
         <body>
             <h1>Krenovator - What is CSS</h1>
@@ -165,6 +165,7 @@ Output:
         .body h1 {
             color: #00acee;
             padding: 60px;
+            border: none;
         }
         .body p{
             color: #fff;
