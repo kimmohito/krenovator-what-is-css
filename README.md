@@ -1,13 +1,13 @@
 # What Exactly is CSS?
 
-Cascading Style Sheets (CSS) is a markup language responsible for how your web pages will look like. It controls the colors, fonts, and layouts of your website elements.
+**Cascading Style Sheets (CSS)** is a markup language responsible for how your web pages will look like. It controls the colors, fonts, and layouts of your website elements.
 
 This style sheet language also allows you to add effects or animations to your website. You can use it to display some CSS animations like click button effects, spinners or loaders, and animated backgrounds.
 
 Without CSS, your website will appear as a plain HTML page. Here’s how example of page [without css](#without-css) and [with css](#with-css) will look like.
 
 ## Without CSS
-<html>
+<div style="border: solid 1px #ccc; background: #eee;">
     <form>
         <h3>Login</h3>
         <label>Username: </label><br>
@@ -17,10 +17,10 @@ Without CSS, your website will appear as a plain HTML page. Here’s how example
         <button>Login</button><br>
         <a href="#">Forgot password?</a>
     </form>
-</html><br>
+</div>
 
 ## With CSS
-<html>
+<div style="border: solid 1px #ccc; background: #eee;">
     <style type="text/css">
         .form-with-css{
             background: #fff;
@@ -32,7 +32,7 @@ Without CSS, your website will appear as a plain HTML page. Here’s how example
             border-radius: 5px;
             margin: auto;
             padding: 20px;
-            width: 340px;
+            width: 350px;
         }
         .form-with-css h3{
             margin-bottom: 20px;
@@ -84,7 +84,7 @@ Without CSS, your website will appear as a plain HTML page. Here’s how example
             <a href="#">Forgot password?</a>
         </div>
     </form>
-</html><br>
+</div><br>
 
 # The Difference Between Inline, External and Internal CSS Styles
 
