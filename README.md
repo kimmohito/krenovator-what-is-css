@@ -32,7 +32,7 @@ Without CSS, your website will appear as a plain HTML page. Here’s how example
             border-radius: 5px;
             margin: auto;
             padding: 20px;
-            width: 300px;
+            width: 340px;
         }
         .form-with-css h3{
             margin-bottom: 20px;
@@ -147,22 +147,25 @@ Your HTML file will look like this:
 ```
 
 Output:
-<style type="text/css">
-    .body {
-    background-color: blue;
-}
-.body h1 {
-    color: red;
-    padding: 60px;
-} 
-</style>
-<div class="body">
-    <h1>Krenovator - What is CSS</h1>
-    <p>This is our paragraph.</p>
-</div>
+<html>
+    <style type="text/css">
+        .body {
+        background-color: blue;
+    }
+    .body h1 {
+        color: red;
+        padding: 60px;
+    } 
+    </style>
+    <div class="body">
+        <h1>Krenovator - What is CSS</h1>
+        <p>This is our paragraph.</p>
+    </div>
+</html>
 
 ### Advantages of Internal CSS:
 You can use class and ID selectors in this style sheet. Here’s an example:
+
 ```
 .class {
     property1 : value1; 
