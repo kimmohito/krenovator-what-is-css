@@ -1,5 +1,5 @@
 <style>
-    pre{
+    pre, .highlight{
         background: #eee;
     }
     code{
@@ -110,25 +110,25 @@ Here’s how you can use internal CSS:
 1. Open your HTML page and locate `<head>` opening tag.
 
 2. Put the following code right after the `<head>` tag
-    ```
-        <style type="text/css">
-    ```
+```
+    <style type="text/css">
+```
 
 3. Add CSS rules on a new line. Here’s an example:
-    ```
-        .body {
-            background-color: blue;
-        }
-        .body h1 {
-            color: red;
-            padding: 60px;
-        }
-    ```
+```
+    .body {
+        background-color: blue;
+    }
+    .body h1 {
+        color: red;
+        padding: 60px;
+    }
+```
 
 4. Type the closing tag
-    ```
-        </style>
-    ```
+```
+    </style>
+```
 
 Your HTML file will look like this:
 
